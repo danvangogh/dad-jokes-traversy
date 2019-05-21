@@ -1,17 +1,15 @@
 <template>
-  <section class="container">
-    <div>
-      <h2>Hi kids</h2>
-    </div>
-  </section>
+  <div>
+    <h1>About dads</h1>
+    <p>This is a terrible application.</p>
+  </div>
 </template>
 
 <script>
-
   export default {
     head() {
       return {
-        title: 'Welcome to dad jokes',
+        title: 'About the App',
         meta: [
         {
           hid: 'description',
@@ -23,3 +21,7 @@
     }
   }
 </script>
+
+<style>
+
+</style>
